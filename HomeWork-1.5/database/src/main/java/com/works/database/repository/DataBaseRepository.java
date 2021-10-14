@@ -3,6 +3,7 @@ package com.works.database.repository;
 import com.works.database.Entity.Persons;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
